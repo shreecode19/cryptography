@@ -18,7 +18,7 @@ def main(k):
     reduced = format(reduced, 'b') #returns binary string of corresponding int
     while(len(reduced) != 4): #creating output of a 4 bit
         reduced = "0" + reduced
-  
+
     return reduced
     
     
